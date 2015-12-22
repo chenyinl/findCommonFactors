@@ -50,7 +50,7 @@ foreach ($ary as $n){
 function checkIsOdd( $ary ){
     foreach ( $ary as $n ){
         if( !isOdd( $n )){
-            echo "One of the number you entered is not an odd number!\n";
+            echo "One of the number you entered is not an valid odd number!\n";
             echo "Please restart and try again.\n\n";
             exit();
         }
